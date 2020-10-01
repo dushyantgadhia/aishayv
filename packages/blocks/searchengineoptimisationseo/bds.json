@@ -1,0 +1,54 @@
+{
+  "bds": {
+    "name": "searchengineoptimisationseo",
+    "id": "searchengineoptimisationseo",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": [
+      {
+        "searchengineoptimisationseo": {
+          "hotspots": [
+            {
+              "type": "input",
+              "id": "txtInput",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "btnShowHide",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "output",
+              "id": "txtSaved",
+              "options": [
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnExample",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

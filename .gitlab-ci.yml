@@ -1,0 +1,148 @@
+stages:
+  - validate
+  - build
+  - test
+  - release
+
+validate:
+  image: cfmanteiga/alpine-bash-curl-jq
+  stage: validate
+  allow_failure: false
+  script:
+    - echo "Validating protected code for project ${CI_PROJECT_ID} SHA ${CI_COMMIT_SHA} ..."
+    - bash validate_code.sh $CI_PROJECT_ID $CI_COMMIT_SHA $CI_COMMIT_REF_NAME $GITLAB_TOKEN
+  except:
+    refs:
+      - merge-engine
+      - ui-engine
+      - code-engine
+
+build mobile:
+  stage:  build
+  before_script:
+    - xcrun simctl shutdown all && xcrun simctl erase all
+    - yarn
+    - echo "iOS before_script"
+    - cd packages/mobile/ios && pod install && cd ../../../ && npx react-native bundle --entry-file ./packages/mobile/index.js --platform ios --dev true --bundle-output ./packages/mobile/ios/main.jsbundle
+    - echo "Android before_script"
+    - npx react-native bundle --entry-file ./packages/mobile/index.js --platform android --dev true --bundle-output ./packages/mobile/android/app/src/main/assets/index.android.bundle
+  script:
+    - echo "Running iOS Scripts"
+    - yarn ios > /dev/null 2>&1 && iOSApp=$(find ~/Library/Developer/CoreSimulator -name 'OPLUS1.app' -type d) && echo $iOSApp && cd packages/mobile/vqa-rn-mobile && cp -R $iOSApp ./OPLUS1.app && zip -r ${CI_COMMIT_SHA}_iOS.zip OPLUS1.app && cp ${CI_COMMIT_SHA}_iOS.zip ../../../${CI_COMMIT_SHA}_iOS.zip && cd ../../../
+    - echo "Running Android Scripts"
+    - yarn android && cp packages/mobile/android/app/build/outputs/apk/debug/app-debug.apk ${CI_COMMIT_SHA}_Android.apk
+  tags:
+    - XCode
+  artifacts:
+    paths:
+      - ${CI_COMMIT_SHA}_Android.apk
+      - ${CI_COMMIT_SHA}_iOS.zip
+      - packages/mobile/android/app/build/outputs/apk/debug/app-debug.apk
+      - packages/mobile/vqa-rn-mobile/OPLUS1.app
+  cache: &global_cache
+    key: ${CI_PROJECT_DIR}_${CI_COMMIT_REF_NAME}
+    paths:
+      - node_modules
+      - packages/framework/node_modules
+      - packages/mobile/node_modules
+      - packages/mobile/ios/Pods
+
+
+run unit tests:
+  stage: test
+  script:
+    - >
+      while IFS= read -r line; do
+        for directory in $line ; do
+          echo yarn
+          yarn
+          echo cd $directory
+          cd $directory
+          echo yarn
+          yarn
+          echo yarn testBackend
+          yarn testBackend
+          echo yarn test
+          yarn test
+          echo cd ../../..
+          cd ../../..
+        done
+      done < .ymlblocksfeeder.data
+  tags:
+    - VisualQA
+  environment:
+    name: build
+    action: start
+  except:
+    refs:
+      - merge-engine
+      - ui-engine
+      - code-engine
+  cache: &global_cache
+    key: ${CI_PROJECT_DIR}_${CI_COMMIT_REF_NAME}
+    paths:
+      - node_modules
+      - packages/framework/node_modules
+      - packages/mobile/node_modules
+      - packages/mobile/ios/Pods
+
+mobile Visual QA:
+  before_script:
+    - yarn && cd packages/mobile/vqa-rn-mobile && yarn && cd ..
+  script:
+    - cd vqa-rn-mobile && node mobileVQANodeJS.min.js
+  stage: test
+  tags:
+    - VisualQA
+  artifacts:
+    paths:
+    - packages/mobile/vqa-rn-mobile/**/json/*
+    - packages/mobile/vqa-rn-mobile/*Log.txt
+    expire_in: 1 week
+
+
+
+upload mobile apps to s3:
+  stage: test
+  allow_failure: false
+  image:
+    name: banst/awscli
+    entrypoint: [""]
+  script:
+    - aws configure set region us-west-1
+    - aws s3 cp ${CI_COMMIT_SHA}_iOS.zip s3://${S3_BUCKET}/${CI_PROJECT_ID}/${CI_COMMIT_REF_NAME}/${CI_COMMIT_SHA}_iOS.zip --acl public-read
+    - aws s3 cp ${CI_COMMIT_SHA}_Android.apk s3://${S3_BUCKET}/${CI_PROJECT_ID}/${CI_COMMIT_REF_NAME}/${CI_COMMIT_SHA}_Android.apk --acl public-read
+
+update mobile deploy:
+  stage: release
+  script:
+    - echo "WIP"
+    - echo "Fastlane Deploy ${CI_COMMIT_BRANCH}"
+  tags:
+    - XCode
+  except:
+    refs:
+      - merge-engine
+      - ui-engine
+      - code-engine
+
+
+Notify DockerIDE mobile App Ready:
+  stage: release
+  when: on_success
+  image: curlimages/curl
+  script:
+    - echo "Updating iOS APP in the Mobile Emulator."
+    - 'curl --request POST --url ${DOCKER_IDE_URL} --header "${DOCKER_IDE_AUTH}" --header "content-type: multipart/form-data; boundary=---011000010111000001101001" --form email=${GITLAB_USER_EMAIL} --form platform=ios --form project_id=${CI_PROJECT_ID} --form app_location=https://${S3_BUCKET}.${S3_REGION}.amazonaws.com/${CI_PROJECT_ID}/${CI_COMMIT_REF_NAME}/${CI_COMMIT_SHA}_iOS.zip'
+    - echo "Updating Android APK in the Mobile Emulator."
+    - 'curl --request POST --url ${DOCKER_IDE_URL} --header "${DOCKER_IDE_AUTH}" --header "content-type: multipart/form-data; boundary=---011000010111000001101001" --form email=${GITLAB_USER_EMAIL} --form platform=android --form project_id=${CI_PROJECT_ID} --form app_location=https://${S3_BUCKET}.${S3_REGION}.amazonaws.com/${CI_PROJECT_ID}/${CI_COMMIT_REF_NAME}/${CI_COMMIT_SHA}_Android.apk'
+
+Notify DockerIDE STG mobile App Ready:
+  stage: release
+  when: on_success
+  image: curlimages/curl
+  script:
+    - echo "Updating iOS APP in the Mobile Emulator."
+    - 'curl --request POST --url ${DOCKER_IDE_STG_URL} --header "${DOCKER_IDE_STG_AUTH}" --header "content-type: multipart/form-data; boundary=---011000010111000001101001" --form email=${GITLAB_USER_EMAIL} --form platform=ios --form project_id=${CI_PROJECT_ID} --form app_location=https://${S3_BUCKET}.${S3_REGION}.amazonaws.com/${CI_PROJECT_ID}/${CI_COMMIT_REF_NAME}/${CI_COMMIT_SHA}_iOS.zip'
+    - echo "Updating Android APK in the Mobile Emulator."
+    - 'curl --request POST --url ${DOCKER_IDE_STG_URL} --header "${DOCKER_IDE_STG_AUTH}" --header "content-type: multipart/form-data; boundary=---011000010111000001101001" --form email=${GITLAB_USER_EMAIL} --form platform=android --form project_id=${CI_PROJECT_ID} --form app_location=https://${S3_BUCKET}.${S3_REGION}.amazonaws.com/${CI_PROJECT_ID}/${CI_COMMIT_REF_NAME}/${CI_COMMIT_SHA}_Android.apk'

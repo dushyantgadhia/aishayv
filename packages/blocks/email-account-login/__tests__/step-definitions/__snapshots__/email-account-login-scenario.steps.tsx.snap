@@ -1,0 +1,3387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Email Address Account Log In Email Address and Empty Password 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In Email Address and Password 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In Empty Email Address 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In Password and Empty Email Address 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In Remember Me - Email Address Account Log In 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        autoCompleteType="email"
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In Remember Me - Email Address Account Log In 2`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        autoCompleteType="email"
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In User navigates to Email Log In 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In User navigates to Email Log In 2`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In User navigates to Email Log In 3`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In User navigates to Email Log In 4`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In User navigates to Email Log In 5`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In User navigates to Email Log In 6`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In User navigates to Email Log In 7`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In User navigates to Email Log In 8`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In User navigates to Email Log In 9`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+        value="hello@aol.com"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Email Address Account Log In User navigates to Email Log In 10`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "left",
+          }
+        }
+        testID="txtInputEmail"
+        underlineColorAndroid="transparent"
+        value="hello@aol.com"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/email-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnPasswordShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+           
+        </Text>
+      </View>
+      <Button
+        color="#6200EE"
+        onPress={[Function]}
+        testID="btnEmailLogIn"
+        title="LOG IN"
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      >
+        OR
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;

@@ -1,0 +1,61 @@
+{
+  "name": "web",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@firebase/analytics": "^0.2.15",
+    "@react-native-community/async-storage-backend-web": "^2.0.0-rc.0",
+    "@material-ui/core": "^4.9.7",
+    "babel-preset-es2015": "^6.24.1",
+    "blocks": "0.0.1",
+    "components": "0.0.1",
+    "firebase": "^7.9.3",
+    "gapi-script": "^1.0.1",
+    "react": "16.9.0",
+    "react-art": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-facebook-login": "^4.1.1",
+    "react-firebase": "^2.2.8",
+    "react-native": "0.61.3",
+    "react-native-check-box": "2.1.7",
+    "react-native-web": "0.11.7",
+    "react-router-dom": "^4.3.1",
+    "react-router-modal": "^1.4.2",
+    "react-scripts": "3.1.1"
+  },
+  "scripts": {
+    "compile": "tsc -b",
+    "prestart": "npm run compile",
+    "start": "concurrently \"npm run compile -- -w --incremental\" \"HTTPS=true npm run _start\"",
+    "windows_start": "concurrently \"npm run compile -- -w --incremental\" \"npm run _start\"",
+    "_start": "react-app-rewired start",
+    "prebuild": "npm run compile",
+    "build": "react-app-rewired build",
+    "pretest": "npm run compile",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "lint": "eslint 'src/*.{js,ts,tsx}' --fix"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/gapi": "0.0.39",
+    "@types/gapi.auth2": "0.0.51",
+    "@react-native-community/google-signin": "^3.0.4",
+    "@types/react-facebook-login": "^4.1.1",
+    "@types/react-native-fbsdk": "^1.0.0",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/react-select": "^3.0.10",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@types/uuid": "^7.0.0",
+    "babel-plugin-react-native-web": "0.11.7",
+    "concurrently": "5.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "react-app-rewired": "2.1.4"
+  }
+}

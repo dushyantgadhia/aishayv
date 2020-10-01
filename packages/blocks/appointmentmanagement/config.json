@@ -1,0 +1,63 @@
+{
+  "id": "appointmentmanagement",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/appointmentmanagement",
+  "assembler-adapters": ["AppointmentManagementAdapter"],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": ["Appointmentmanagement"],
+    "assembler-messages": {
+      "output": {},
+      "input": {
+        "navigation": ["NavigationAppointmentManagementMessage"]
+      }
+    },
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Appointmentmanagement": {
+        "file": "Appointmentmanagement.tsx",
+        "extends": "AppointmentmanagementController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AppointmentmanagementController",
+            "path": "./AppointmentmanagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AppointmentmanagementController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": ["Appointmentmanagement"],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AppointmentmanagementBlock": {
+        "file": "AppointmentmanagementBlock.tsx",
+        "extends": "AppointmentmanagementController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AppointmentmanagementController",
+            "path": "./AppointmentmanagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AppointmentmanagementController"
+          }
+        ]
+      }
+    }
+  }
+}

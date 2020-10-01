@@ -1,0 +1,61 @@
+{
+  "id": "multiplecurrencysupport",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/multiplecurrencysupport",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Multiplecurrencysupport"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Multiplecurrencysupport": {
+        "file": "Multiplecurrencysupport.tsx",
+        "extends": "MultiplecurrencysupportController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MultiplecurrencysupportController",
+            "path": "./MultiplecurrencysupportController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MultiplecurrencysupportController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Multiplecurrencysupport"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MultiplecurrencysupportBlock": {
+        "file": "MultiplecurrencysupportBlock.tsx",
+        "extends": "MultiplecurrencysupportController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MultiplecurrencysupportController",
+            "path": "./MultiplecurrencysupportController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MultiplecurrencysupportController"
+          }
+        ]
+      }
+    }
+  }
+}

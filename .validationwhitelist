@@ -1,0 +1,11 @@
+.validationwhitelist
+.validationignore
+docs/**/*
+endPointTest.js
+packages/blocks/**/src/**/*.{ts,tsx,js}
+packages/blocks/**/bds.json
+packages/blocks/**/config.json
+packages/framework/**/*
+packages/components/src/HomeScreen.tsx
+validate_code.sh
+.ymlblocksfeeder.data

@@ -1,0 +1,61 @@
+{
+  "id": "searchengineoptimisationseo",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/searchengineoptimisationseo",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Searchengineoptimisationseo"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Searchengineoptimisationseo": {
+        "file": "Searchengineoptimisationseo.tsx",
+        "extends": "SearchengineoptimisationseoController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SearchengineoptimisationseoController",
+            "path": "./SearchengineoptimisationseoController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SearchengineoptimisationseoController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Searchengineoptimisationseo"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SearchengineoptimisationseoBlock": {
+        "file": "SearchengineoptimisationseoBlock.tsx",
+        "extends": "SearchengineoptimisationseoController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SearchengineoptimisationseoController",
+            "path": "./SearchengineoptimisationseoController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SearchengineoptimisationseoController"
+          }
+        ]
+      }
+    }
+  }
+}

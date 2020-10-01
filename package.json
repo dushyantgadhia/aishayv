@@ -1,0 +1,54 @@
+{
+  "name": "OPLUS1",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "android": "yarn workspace mobile android",
+    "clean": "yarn workspace mobile clean",
+    "compile": "tsc -b --incremental",
+    "ios": "yarn workspace mobile  ios",
+    "production": "yarn workspace mobile production",
+    "studio": "yarn workspace mobile studio",
+    "xcode": "yarn workspace mobile xcode"
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^5.3.3",
+    "@react-navigation/native": "^5.7.3",
+    "@react-native-community/toolbar-android": "0.1.0-rc.2",
+    "@unimodules/core": "^5.0.0",
+    "@unimodules/react-native-adapter": "^5.0.0",
+    "formik": "^2.1.4",
+    "react-geocode": "^0.2.1",
+    "react-native": "0.61.3",
+    "react-native-check-box": "^2.1.7",
+    "react-native-elements": "^2.2.1",
+    "react-native-vector-icons": "^7.0.0",
+    "react-native-fast-image": "^7.0.2",
+    "react-native-image-picker": "2.3.0",
+    "react-native-maps": "^0.27.1",
+    "react-native-reanimated": "^1.13.0",
+    "react-navigation": "^2.17.0",
+    "react-navigation-stack": "^2.1.1",
+    "recompose": "^0.30.0",
+    "yup": "^0.28.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.2",
+    "@types/react": "16.9.11",
+    "@types/react-native": "0.60.22",
+    "@types/react-native-check-box": "^2.1.0",
+    "@types/react-navigation": "^3.4.0",
+    "@types/recompose": "^0.30.7",
+    "@types/yup": "^0.26.30",
+    "concurrently": "5.0.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest-cucumber": "^2.0.11",
+    "react-native-save-view": "^0.2.3",
+    "typescript": "latest"
+  }
+}

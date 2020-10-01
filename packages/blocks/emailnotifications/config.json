@@ -1,0 +1,61 @@
+{
+  "id": "emailnotifications",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/emailnotifications",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Emailnotifications"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Emailnotifications": {
+        "file": "Emailnotifications.tsx",
+        "extends": "EmailnotificationsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "EmailnotificationsController",
+            "path": "./EmailnotificationsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./EmailnotificationsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Emailnotifications"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EmailnotificationsBlock": {
+        "file": "EmailnotificationsBlock.tsx",
+        "extends": "EmailnotificationsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "EmailnotificationsController",
+            "path": "./EmailnotificationsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./EmailnotificationsController"
+          }
+        ]
+      }
+    }
+  }
+}

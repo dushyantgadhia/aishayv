@@ -1,0 +1,104 @@
+{
+  "name": "mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "npx react-native run-android",
+    "compile": "tsc -b --incremental",
+    "ios": "npx react-native run-ios",
+    "start": "concurrently \"npm run compile -- -w\" \"npx react-native start --port 9000\"",
+    "aab": "cd android && ./gradlew bundleRelease && cd ..",
+    "release": "cd android && ./gradlew assembleRelease && cd ..",
+    "clean": "cd android && ./gradlew clean && cd ..",
+    "production": "npx react-native run-android --variant=release",
+    "studio": "studio android",
+    "xcode": "open ios/OPLUS1.xcworkspace"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage-backend-legacy": "^2.0.0-rc.2",
+    "@react-native-community/clipboard": "1.2.3",
+    "@react-native-community/datetimepicker": "2.1.0",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/google-signin": "^3.0.4",
+    "@react-native-community/netinfo": "^5.3.3",
+    "@react-native-community/toolbar-android": "0.1.0-rc.2",
+    "@react-navigation/bottom-tabs": "^5.8.0",
+    "@react-navigation/compat": "^5.2.5",
+    "@react-navigation/native": "^5.7.3",
+    "@react-navigation/stack": "^5.9.0",
+    "blocks": "0.0.1",
+    "components": "0.0.1",
+    "react": "16.11.0",
+    "react-images-upload": "^1.2.7",
+    "react-native": "0.61.3",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-calendars": "^1.325.0",
+    "react-native-fbsdk": "^1.1.2",
+    "react-native-geocoding": "^0.4.0",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-maps": "^0.27.1",
+    "react-native-modal-activityindicator": "0.0.1",
+    "react-native-permissions": "^2.2.0",
+    "react-native-image-crop-picker": "^0.33.2",
+    "react-native-localize": "^1.4.1",
+    "react-native-material-textfield": "https://github.com/javarahulsharma/react-native-material-textfield.git",
+    "react-native-reanimated": "^1.11.0",
+    "react-native-safe-area-context": "^3.1.4",
+    "react-native-screens": "^2.10.1",
+    "react-native-share": "3.7.1",
+    "react-native-star-rating": "^1.1.0",
+    "react-native-swiper": "^1.6.0",
+    "react-native-vector-icons": "^7.0.0",
+    "react-native-tab-view": "^2.15.1"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "0.0.5",
+    "@react-native-community/eslint-plugin": "^1.0.0",
+    "@types/enzyme": "^3.1.12",
+    "@types/enzyme-adapter-react-16": "^1.0.2",
+    "@types/jest": "^25.1.0",
+    "@types/react": "^16.9.19",
+    "@types/react-native": "^0.61.7",
+    "@types/react-test-renderer": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "babel-jest": "25.0.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.3.4",
+    "eslint": "6.6.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-react-native": "^3.8.1",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "jest": "25.0.0",
+    "jest-enzyme": "^7.1.2",
+    "jest-sonar-reporter": "^2.0.0",
+    "pixels-catcher": "^0.7.0",
+    "react-native-save-view": "^0.2.3",
+    "react-test-renderer": "16.11.0",
+    "ts-jest": "^25.0.0"
+  },
+  "jestSonar": {
+    "reportPath": "../../reports",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/../../node_modules/jest-enzyme/lib/index.js"
+    ],
+    "testResultsProcessor": "jest-sonar-reporter",
+    "setupFiles": [
+      "<rootDir>/test-setup.js"
+    ],
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "collectCoverageFrom": [
+      "!../../node_modules/**",
+      "!build/**"
+    ]
+  }
+}

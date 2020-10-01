@@ -1,0 +1,61 @@
+{
+  "id": "languageoptions",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/languageoptions",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Languageoptions"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Languageoptions": {
+        "file": "Languageoptions.tsx",
+        "extends": "LanguageoptionsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LanguageoptionsController",
+            "path": "./LanguageoptionsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LanguageoptionsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Languageoptions"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LanguageoptionsBlock": {
+        "file": "LanguageoptionsBlock.tsx",
+        "extends": "LanguageoptionsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LanguageoptionsController",
+            "path": "./LanguageoptionsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LanguageoptionsController"
+          }
+        ]
+      }
+    }
+  }
+}

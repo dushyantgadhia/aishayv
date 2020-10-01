@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filteritems User navigates to filteritems 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelTitle"
+      >
+        filteritems
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelBody"
+      >
+         
+        filteritems Body
+         
+      </Text>
+      <Text
+        testID="txtSaved"
+      >
+        This is the reviced value:
+        A
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "padding": 10,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          testID="txtInput"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/filteritems/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Button
+        onPress={[Function]}
+        testID="btnExample"
+        title="CLICK ME"
+      />
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`filteritems User navigates to filteritems 2`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelTitle"
+      >
+        filteritems
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelBody"
+      >
+         
+        filteritems Body
+         
+      </Text>
+      <Text
+        testID="txtSaved"
+      >
+        This is the reviced value:
+        A
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "padding": 10,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          testID="txtInput"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/filteritems/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Button
+        onPress={[Function]}
+        testID="btnExample"
+        title="CLICK ME"
+      />
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`filteritems User navigates to filteritems 3`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelTitle"
+      >
+        filteritems
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelBody"
+      >
+         
+        filteritems Body
+         
+      </Text>
+      <Text
+        testID="txtSaved"
+      >
+        This is the reviced value:
+        hello@aol.com
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "padding": 10,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          testID="txtInput"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/filteritems/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Button
+        onPress={[Function]}
+        testID="btnExample"
+        title="CLICK ME"
+      />
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`filteritems User navigates to filteritems 4`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelTitle"
+      >
+        filteritems
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+        testID="labelBody"
+      >
+         
+        filteritems Body
+         
+      </Text>
+      <Text
+        testID="txtSaved"
+      >
+        This is the reviced value:
+        hello@aol.com
+         
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "padding": 10,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          testID="txtInput"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/filteritems/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+            testID="btnShowHideImage"
+          />
+        </TouchableOpacity>
+      </View>
+      <Button
+        onPress={[Function]}
+        testID="btnExample"
+        title="CLICK ME"
+      />
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;

@@ -1,0 +1,13 @@
+{
+  "name": "blocks",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@react-native-community/clipboard": "1.2.3",
+    "framework": "0.0.1",
+    "lodash": "^4.17.19",
+    "react-native-cancelable-fetch": "0.1.1",
+    "react-native-share": "3.7.1",
+    "react-native-vector-icons": "^7.0.0"
+  }
+}

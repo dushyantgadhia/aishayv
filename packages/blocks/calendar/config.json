@@ -1,0 +1,61 @@
+{
+  "id": "calendar",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/calendar",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Calendar"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Calendar": {
+        "file": "Calendar.tsx",
+        "extends": "CalendarController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CalendarController",
+            "path": "./CalendarController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CalendarController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Calendar"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CalendarBlock": {
+        "file": "CalendarBlock.tsx",
+        "extends": "CalendarController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CalendarController",
+            "path": "./CalendarController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CalendarController"
+          }
+        ]
+      }
+    }
+  }
+}

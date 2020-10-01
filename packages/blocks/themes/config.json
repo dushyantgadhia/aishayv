@@ -1,0 +1,61 @@
+{
+  "id": "themes",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/themes",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Themes"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Themes": {
+        "file": "Themes.tsx",
+        "extends": "ThemesController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ThemesController",
+            "path": "./ThemesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ThemesController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Themes"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ThemesBlock": {
+        "file": "ThemesBlock.tsx",
+        "extends": "ThemesController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ThemesController",
+            "path": "./ThemesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ThemesController"
+          }
+        ]
+      }
+    }
+  }
+}

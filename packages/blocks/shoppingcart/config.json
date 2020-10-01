@@ -1,0 +1,61 @@
+{
+  "id": "shoppingcart",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/shoppingcart",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Shoppingcart"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Shoppingcart": {
+        "file": "Shoppingcart.tsx",
+        "extends": "ShoppingcartController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ShoppingcartController",
+            "path": "./ShoppingcartController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ShoppingcartController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Shoppingcart"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ShoppingcartBlock": {
+        "file": "ShoppingcartBlock.tsx",
+        "extends": "ShoppingcartController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ShoppingcartController",
+            "path": "./ShoppingcartController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ShoppingcartController"
+          }
+        ]
+      }
+    }
+  }
+}

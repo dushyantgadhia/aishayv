@@ -1,0 +1,61 @@
+{
+  "id": "itemavailability",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/itemavailability",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Itemavailability"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Itemavailability": {
+        "file": "Itemavailability.tsx",
+        "extends": "ItemavailabilityController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ItemavailabilityController",
+            "path": "./ItemavailabilityController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ItemavailabilityController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Itemavailability"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ItemavailabilityBlock": {
+        "file": "ItemavailabilityBlock.tsx",
+        "extends": "ItemavailabilityController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ItemavailabilityController",
+            "path": "./ItemavailabilityController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ItemavailabilityController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "profilebio",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/profilebio",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Profilebio"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Profilebio": {
+        "file": "Profilebio.tsx",
+        "extends": "ProfilebioController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ProfilebioController",
+            "path": "./ProfilebioController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ProfilebioController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Profilebio"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ProfilebioBlock": {
+        "file": "ProfilebioBlock.tsx",
+        "extends": "ProfilebioController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ProfilebioController",
+            "path": "./ProfilebioController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ProfilebioController"
+          }
+        ]
+      }
+    }
+  }
+}

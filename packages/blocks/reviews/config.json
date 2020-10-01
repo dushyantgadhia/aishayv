@@ -1,0 +1,61 @@
+{
+  "id": "reviews",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/reviews",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Reviews"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Reviews": {
+        "file": "Reviews.tsx",
+        "extends": "ReviewsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ReviewsController",
+            "path": "./ReviewsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReviewsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Reviews"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ReviewsBlock": {
+        "file": "ReviewsBlock.tsx",
+        "extends": "ReviewsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ReviewsController",
+            "path": "./ReviewsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReviewsController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "paymentadmin",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/paymentadmin",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Paymentadmin"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Paymentadmin": {
+        "file": "Paymentadmin.tsx",
+        "extends": "PaymentadminController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PaymentadminController",
+            "path": "./PaymentadminController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PaymentadminController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Paymentadmin"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PaymentadminBlock": {
+        "file": "PaymentadminBlock.tsx",
+        "extends": "PaymentadminController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PaymentadminController",
+            "path": "./PaymentadminController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PaymentadminController"
+          }
+        ]
+      }
+    }
+  }
+}

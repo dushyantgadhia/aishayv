@@ -1,0 +1,63 @@
+{
+  "id": "location",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/location",
+  "assembler-adapters": ["LocationAdapter"],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": ["Location"],
+    "assembler-messages": {
+      "output": {},
+      "input": {
+        "navigation": ["NavigationLocationMessage"]
+      }
+    },
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Location": {
+        "file": "Location.tsx",
+        "extends": "LocationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LocationController",
+            "path": "./LocationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LocationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": ["Location"],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LocationBlock": {
+        "file": "LocationBlock.tsx",
+        "extends": "LocationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LocationController",
+            "path": "./LocationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LocationController"
+          }
+        ]
+      }
+    }
+  }
+}

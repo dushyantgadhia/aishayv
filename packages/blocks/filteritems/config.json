@@ -1,0 +1,61 @@
+{
+  "id": "filteritems",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/filteritems",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Filteritems"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Filteritems": {
+        "file": "Filteritems.tsx",
+        "extends": "FilteritemsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "FilteritemsController",
+            "path": "./FilteritemsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FilteritemsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Filteritems"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FilteritemsBlock": {
+        "file": "FilteritemsBlock.tsx",
+        "extends": "FilteritemsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "FilteritemsController",
+            "path": "./FilteritemsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FilteritemsController"
+          }
+        ]
+      }
+    }
+  }
+}
